@@ -76,6 +76,7 @@ export default defineConfig([
                     case: 'kebabCase',
                 },
             ],
+            'react-hooks/refs': 'off',
         }
     },
 ]);

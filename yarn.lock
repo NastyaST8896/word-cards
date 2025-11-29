@@ -1369,6 +1369,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"classnames@npm:^2.5.1":
+  version: 2.5.1
+  resolution: "classnames@npm:2.5.1"
+  checksum: 10/58eb394e8817021b153bb6e7d782cfb667e4ab390cb2e9dac2fc7c6b979d1cc2b2a733093955fc5c94aa79ef5c8c89f11ab77780894509be6afbb91dddd79d15
+  languageName: node
+  linkType: hard
+
 "clean-regexp@npm:^1.0.0":
   version: 1.0.0
   resolution: "clean-regexp@npm:1.0.0"
@@ -3335,6 +3342,7 @@ __metadata:
     "@types/react": "npm:^19.2.5"
     "@types/react-dom": "npm:^19.2.3"
     "@vitejs/plugin-react": "npm:^5.1.1"
+    classnames: "npm:^2.5.1"
     eslint: "npm:^9.39.1"
     eslint-plugin-react-hooks: "npm:^7.0.1"
     eslint-plugin-react-refresh: "npm:^0.4.24"
