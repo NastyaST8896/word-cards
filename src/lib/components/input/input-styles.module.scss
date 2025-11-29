@@ -1,0 +1,38 @@
+.input {
+    max-width: 320px;
+    width: 100%;
+
+    &-fWidth {
+        max-width: none;
+        width: 100%;
+    }
+
+    .label {
+        font-size: 24px;
+    }
+
+    .form-input {
+        font-size: 18px;
+        border-radius: 20px;
+        padding: 10px 16px;
+        border: none;
+        width: 100%;
+        outline: rgba(225, 225, 225, 0.1) solid 1px;
+
+        &.simple-shadow {
+            box-shadow: 2px 2px 4px rgba(225, 225, 225, 0.1),
+            2px 2px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        &.inset-shadow {
+            box-shadow: inset -2px -2px 8px rgba(255, 255, 255, 1),
+            inset -2px -2px 12px rgba(255, 255, 255, 0.7),
+            inset 2px 2px 4px rgba(225, 225, 225, 0.1),
+            inset 2px 2px 8px rgba(0, 0, 0, 0.3);
+        }
+    }
+}
+
+
+
+

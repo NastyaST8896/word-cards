@@ -1,0 +1,53 @@
+.form {
+    margin: 40px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    background-color: rgba(205, 191, 100, 0.76);
+
+    .form-cards {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        width: 100%;
+    }
+
+    &-div {
+        padding: 60px;
+        width: 40%;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(241, 241, 241);
+        box-shadow: 2px 2px 4px rgba(225, 225, 225, 0.1),
+        2px 2px 8px rgba(0, 0, 0, 0.3);
+        border-radius: 20px;
+    }
+
+    &-button {
+        font-size: 18px;
+        border-radius: 20px;
+        padding: 15px;
+        box-shadow: 2px 2px 4px rgba(225, 225, 225, 0.1),
+        2px 2px 8px rgba(0, 0, 0, 0.3);
+        border: none;
+        outline: none;
+        transition: box-shadow 0.2s ease-in-out;
+    }
+
+    &-button:hover {
+        box-shadow: 6px 6px 8px rgba(225, 225, 225, 0.1),
+        6px 6px 12px rgba(0, 0, 0, 0.3);
+    }
+
+    &-button:active {
+        box-shadow: inset -2px -2px 8px rgba(255, 255, 255, 1),
+        inset -2px -2px 12px rgba(255, 255, 255, 0.7),
+        inset 2px 2px 4px rgba(225, 225, 225, 0.1),
+        inset 2px 2px 8px rgba(0, 0, 0, 0.3);
+    }
+}
