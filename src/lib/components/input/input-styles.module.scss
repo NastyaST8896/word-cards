@@ -12,12 +12,19 @@
     }
 
     .form-input {
+        font-family: "Old Standard TT", serif;
+        font-weight: 400;
         font-size: 18px;
         border-radius: 20px;
         padding: 10px 16px;
         border: none;
         width: 100%;
         outline: rgba(225, 225, 225, 0.1) solid 1px;
+        background-color: transparent;
+
+        &::placeholder {
+            font-style: italic;
+        }
 
         &.simple-shadow {
             box-shadow: 2px 2px 4px rgba(225, 225, 225, 0.1),

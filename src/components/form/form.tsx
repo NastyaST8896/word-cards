@@ -1,7 +1,9 @@
 import { type ChangeEventHandler, type FormEventHandler, useEffect, useRef, useState } from 'react';
+import { Button } from '@lib/components/button';
 import { Input } from '@lib/components/input';
 
 import './form.scss';
+
 
 type InputProps = {
     create: (word: string, translate: string) => void;
@@ -46,7 +48,7 @@ export const Form = ({ create }: InputProps) => {
                     <Input
                         fullWidth="true"
                         onChange={ handleWordInputChange }
-                        placeholder="Введите слово"
+                        placeholder="Введите слово (англ.)"
                         ref={ inputRef }
                         shadowType="inset"
                         value={ wordValue }
@@ -57,14 +59,14 @@ export const Form = ({ create }: InputProps) => {
                     <Input
                         fullWidth="true"
                         onChange={ handleTranslateInputChange }
-                        placeholder="Введите перевод"
+                        placeholder="Введите перевод (рус.)"
                         shadowType="inset"
                         value={ translateValue }
                     />
                 </div>
             </div>
 
-            <button className="form-button">Добавить</button>
+            <Button>Добавить</Button>
         </form>
     );
 };
